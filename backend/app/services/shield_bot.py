@@ -46,10 +46,19 @@ class ShieldBot:
         if self.api_key:
             try:
                 from google import genai
+                from google.genai import types
 
-                self.client = genai.Client(api_key=self.api_key)
+                # 15s cap per request so a 503-storm can't hang the endpoint;
+                # the rules fallback answers instead.
+                self.client = genai.Client(
+                    api_key=self.api_key,
+                    http_options=types.HttpOptions(timeout=15_000),
+                )
             except Exception:
                 self.client = None
+
+    # Tried in order; first success wins. "-latest" aliases track stable releases.
+    GEMINI_MODELS = ["gemini-flash-latest", "gemini-2.0-flash", "gemini-flash-lite-latest"]
 
     # ---- hand-rolled TF-IDF retrieval (no extra deps) ----
     def _build_index(self) -> None:
@@ -117,11 +126,20 @@ Classify it. Respond ONLY with JSON:
 If the language requested is English, verdict_local must equal verdict_en.
 Be measured: ordinary promotions/personal messages are "Safe" or "Low" — do not alarm citizens unnecessarily (low false-positive rate is a hard requirement)."""
 
-        response = self.client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(response_mime_type="application/json"),
-        )
+        response = None
+        last_err = None
+        for model in self.GEMINI_MODELS:
+            try:
+                response = self.client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(response_mime_type="application/json"),
+                )
+                break
+            except Exception as err:  # 404 retired model, 503 overload, timeout
+                last_err = err
+        if response is None:
+            raise last_err
         parsed = json.loads(response.text)
         return {
             "risk_level": parsed.get("risk_level", "Medium"),
