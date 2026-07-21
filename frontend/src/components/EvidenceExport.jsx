@@ -49,7 +49,7 @@ export default function EvidenceExport({ onClose }) {
       position: 'fixed', inset: 0, background: 'rgba(3,7,18,0.8)', backdropFilter: 'blur(4px)',
       display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000,
     }}>
-      <div className="glass-panel" style={{ width: 'min(520px, 92vw)', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      <div className="glass-panel doc-panel" data-exhibit="Intelligence Package · Chain of Custody" style={{ width: 'min(520px, 92vw)', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <ShieldCheck size={20} color="var(--accent-cyan)" /> Evidence Intelligence Package

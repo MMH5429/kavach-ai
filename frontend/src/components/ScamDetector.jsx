@@ -176,8 +176,8 @@ export default function ScamDetector() {
         </div>
       </div>
 
-      {/* Right panel: live analysis */}
-      <div className="analysis-panel glass-panel">
+      {/* Right panel: live analysis — rendered as a paper case document */}
+      <div className="analysis-panel glass-panel doc-panel" data-exhibit="Exhibit M1 · Call Intercept Analysis">
         <h2>Live Risk Analysis</h2>
 
         {isAnalyzing && (
@@ -206,17 +206,14 @@ export default function ScamDetector() {
               </div>
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              <h3>Verdict</h3>
-              <div style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.5rem',
-                fontWeight: '700',
-                color: analysisResult.is_scam ? 'var(--accent-red)' : 'var(--accent-green)'
-              }}>
-                {analysisResult.is_scam ? <ShieldAlert size={20} /> : <CheckCircle size={20} />}
+            {/* Verdict lands as an inked stamp; re-stamps when the verdict changes */}
+            <div style={{ display: 'flex', justifyContent: 'center', padding: '0.5rem 0' }}>
+              <div
+                key={analysisResult.verdict}
+                className={`stamp ${analysisResult.is_scam ? 'stamp-danger' : 'stamp-clear'}`}
+              >
                 {analysisResult.verdict}
+                <span className="stamp-sub">Kavach AI · Rule Engine · {analysisResult.risk_score}%</span>
               </div>
             </div>
 

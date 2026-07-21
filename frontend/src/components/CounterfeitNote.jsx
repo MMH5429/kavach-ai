@@ -86,7 +86,7 @@ export default function CounterfeitNote({ health }) {
               {scanning && (
                 <div style={{
                   position: 'absolute', inset: 0,
-                  background: 'linear-gradient(180deg, transparent, rgba(6,182,212,0.25), transparent)',
+                  background: 'linear-gradient(180deg, transparent, rgba(160,141,232,0.25), transparent)',
                   animation: 'scanline 1.2s linear infinite',
                 }} />
               )}
@@ -113,8 +113,8 @@ export default function CounterfeitNote({ health }) {
         </button>
       </div>
 
-      {/* Right: authentication report */}
-      <div className="glass-panel" style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      {/* Right: authentication report — a paper document that gets stamped */}
+      <div className="glass-panel doc-panel" data-exhibit="Exhibit M2 · Currency Authentication" style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <h2>Authentication Report</h2>
 
         {scanning && (
@@ -131,22 +131,13 @@ export default function CounterfeitNote({ health }) {
 
         {result ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-            <div style={{
-              display: 'flex', alignItems: 'center', gap: '0.75rem',
-              padding: '1rem', borderRadius: '10px',
-              background: result.is_genuine ? 'rgba(34,197,94,0.08)' : 'rgba(239,68,68,0.08)',
-              border: `1px solid ${result.is_genuine ? 'rgba(34,197,94,0.4)' : 'rgba(239,68,68,0.4)'}`,
-            }}>
-              {result.is_genuine
-                ? <ShieldCheck size={32} color="var(--accent-green)" />
-                : <ShieldAlert size={32} color="var(--accent-red)" />}
-              <div>
-                <div style={{ fontSize: '1.3rem', fontWeight: 700, color: result.is_genuine ? 'var(--accent-green)' : 'var(--accent-red)' }}>
-                  {result.verdict}
-                </div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                  model confidence {result.confidence}%
-                </div>
+            <div style={{ display: 'flex', justifyContent: 'center', padding: '0.75rem 0' }}>
+              <div
+                key={result.verdict + fileName}
+                className={`stamp ${result.is_genuine ? 'stamp-clear' : 'stamp-danger'}`}
+              >
+                {result.verdict}
+                <span className="stamp-sub">MobileNetV3 · Confidence {result.confidence}%</span>
               </div>
             </div>
 
