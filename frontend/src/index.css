@@ -1,0 +1,21 @@
+/* Minimal global reset — the design system lives in App.css. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background: #030712;
+  color: #e5e7eb;
+  -webkit-font-smoothing: antialiased;
+}

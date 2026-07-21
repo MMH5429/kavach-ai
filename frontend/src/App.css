@@ -1,0 +1,766 @@
+/* Kavach AI Theme - Dark Cyberpunk & Glassmorphism Design System */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-primary: #030712;
+  --bg-secondary: #0b1528;
+  --bg-glass: rgba(11, 21, 40, 0.65);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-orange: #f97316;
+  --accent-red: #ef4444;
+  --accent-green: #10b981;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --glow-blue: 0 0 20px rgba(59, 130, 246, 0.3);
+  --glow-red: 0 0 25px rgba(239, 68, 68, 0.45);
+  --glow-green: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.1) 0px, transparent 50%);
+  min-height: 100vh;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue);
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Premium Header */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  background: rgba(3, 7, 18, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-glass);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.shield-logo {
+  color: var(--accent-cyan);
+  filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
+  animation: pulse-glow 3s infinite alternate;
+}
+
+.logo-text {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, var(--text-primary) 30%, var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.05em;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-left: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.35rem;
+  border-radius: 30px;
+  border: 1px solid var(--border-glass);
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 0.6rem 1.25rem;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.nav-button:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-button.active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+  box-shadow: var(--glow-blue);
+}
+
+.system-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--accent-green);
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  box-shadow: var(--glow-green);
+  animation: pulse-dot 1.5s infinite;
+}
+
+/* Glassmorphism Panels */
+.glass-panel {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  backdrop-filter: blur(16px);
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: border-color 0.3s ease;
+}
+
+.glass-panel:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Command Center Dashboard layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Map Styling */
+.map-container {
+  height: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  position: relative;
+}
+
+.map-placeholder {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #0e1e38 0%, #030712 100%);
+  color: var(--text-secondary);
+  gap: 1rem;
+}
+
+/* Telemetry Grid */
+.telemetry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.telemetry-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.telemetry-val {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.telemetry-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* Live Alert Feeds */
+.alert-feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.alert-item {
+  border-left: 4px solid var(--accent-orange);
+  background: rgba(249, 115, 22, 0.05);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem;
+  border-top: 1px solid var(--border-glass);
+  border-right: 1px solid var(--border-glass);
+  border-bottom: 1px solid var(--border-glass);
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.alert-item:hover {
+  background: rgba(249, 115, 22, 0.08);
+  transform: translateX(4px);
+}
+
+.alert-item.critical {
+  border-left-color: var(--accent-red);
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.alert-item.critical:hover {
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.alert-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.alert-score {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--accent-red);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.alert-snippet {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* Call Simulator & M1 */
+.scam-detector-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.player-panel, .analysis-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.call-simulator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: radial-gradient(circle, #0f1c3f 0%, #030712 100%);
+  border-radius: 12px;
+  border: 1px solid var(--border-glass);
+}
+
+.avatar-ring {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.03);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-glass);
+}
+
+.avatar-ring.active {
+  animation: ring-pulse 2s infinite;
+}
+
+.call-status-label {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timer {
+  font-family: var(--font-display);
+  color: var(--accent-cyan);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+}
+
+.control-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  color: var(--text-primary);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+  color: white;
+  border: none;
+  box-shadow: var(--glow-blue);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2563eb, #0891b2);
+}
+
+.btn-danger {
+  background: var(--accent-red);
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background: #dc2626;
+  box-shadow: var(--glow-red);
+}
+
+.transcript-feed {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  border: 1px solid var(--border-glass);
+  padding: 1.25rem;
+  height: 280px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.speech-bubble {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  max-width: 85%;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.speech-bubble.scammer {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  align-self: flex-start;
+  border-top-left-radius: 2px;
+}
+
+.speech-bubble.victim {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass);
+  align-self: flex-end;
+  border-top-right-radius: 2px;
+}
+
+.audit-indicator-card {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-glass);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  line-height: 1.5;
+}
+
+.audit-indicator-card.alert {
+  border-left: 3px solid var(--accent-red);
+}
+
+/* Counterfeit Camera Module */
+.counterfeit-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.scanner-feed {
+  position: relative;
+  aspect-ratio: 1.77;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  background: #020617;
+}
+
+.camera-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-secondary);
+  gap: 1rem;
+}
+
+.camera-overlay {
+  position: absolute;
+  inset: 1.5rem;
+  border: 2px dashed rgba(6, 182, 212, 0.4);
+  border-radius: 8px;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heatmap-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.45;
+  mix-blend-mode: color-burn;
+  pointer-events: none;
+}
+
+.target-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent-red);
+  box-shadow: 0 0 10px var(--accent-red);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  animation: pulse-dot 1s infinite;
+}
+
+/* Network Graph Module */
+.network-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.graph-canvas-container {
+  height: 520px;
+  background: radial-gradient(circle, #0d1a33 0%, #030712 100%);
+  border-radius: 12px;
+  border: 1px solid var(--border-glass);
+  position: relative;
+  overflow: hidden;
+}
+
+.node-detail-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* WhatsApp bot simulator */
+.whatsapp-layout {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.whatsapp-container {
+  background: #0b141a;
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.whatsapp-header {
+  background: #202c33;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.bot-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-green), #047857);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  box-shadow: var(--glow-green);
+}
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-image: radial-gradient(circle, rgba(16, 185, 129, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.chat-bubble {
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  max-width: 80%;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #e9edef;
+  position: relative;
+}
+
+.chat-bubble.bot {
+  background: #202c33;
+  align-self: flex-start;
+  border-top-left-radius: 0;
+}
+
+.chat-bubble.user {
+  background: #005c4b;
+  align-self: flex-end;
+  border-top-right-radius: 0;
+}
+
+.chat-input-bar {
+  background: #202c33;
+  padding: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.chat-input {
+  flex-grow: 1;
+  background: #2a3942;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: white;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.chat-input:focus {
+  outline: 1px solid var(--accent-green);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0% { filter: drop-shadow(0 0 4px rgba(6, 182, 212, 0.4)); }
+  100% { filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.8)); }
+}
+
+@keyframes ring-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(6, 182, 212, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0); }
+}
+
+@keyframes pulse-dot {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.5; }
+}
+
+@keyframes pulse-dot-simple {
+  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.status-dot {
+  animation: pulse-dot-simple 2s infinite;
+}
+
+/* Media Queries for Tablet/Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .scam-detector-layout {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .counterfeit-layout {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .network-layout {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .app-header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .telemetry-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    padding: 0.4rem;
+  }
+
+  .nav-button {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.75rem;
+  }
+
+  .map-container {
+    height: 320px;
+  }
+
+  .graph-canvas-container {
+    height: 320px;
+  }
+
+  .scanner-feed {
+    aspect-ratio: 1.33;
+  }
+
+  .whatsapp-container {
+    height: 480px;
+  }
+
+  .control-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Scan animation for the counterfeit upload viewport */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}

@@ -1,0 +1,2048 @@
+{
+ "nodes": [
+  {
+   "id": "0",
+   "name": "Vivaan Joshi",
+   "bank": "ICICI Bank",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 27042,
+   "frequency": 27,
+   "degree": 27,
+   "x": 237.4,
+   "y": 318.0
+  },
+  {
+   "id": "29",
+   "name": "Kiran Reddy",
+   "bank": "Bank of Baroda",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 30514,
+   "frequency": 13,
+   "degree": 12,
+   "x": 255.3,
+   "y": 147.9
+  },
+  {
+   "id": "11",
+   "name": "Nisha Sharma",
+   "bank": "IndusInd",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 25688,
+   "frequency": 19,
+   "degree": 19,
+   "x": 311.4,
+   "y": 143.5
+  },
+  {
+   "id": "4",
+   "name": "Suresh Yadav",
+   "bank": "Union Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 26760,
+   "frequency": 16,
+   "degree": 16,
+   "x": 195.2,
+   "y": 284.9
+  },
+  {
+   "id": "38",
+   "name": "Pooja Chauhan",
+   "bank": "ICICI Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24066,
+   "frequency": 15,
+   "degree": 13,
+   "x": 267.5,
+   "y": 181.1
+  },
+  {
+   "id": "17",
+   "name": "Ananya Reddy",
+   "bank": "Canara Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 28905,
+   "frequency": 26,
+   "degree": 26,
+   "x": 397.0,
+   "y": 308.8
+  },
+  {
+   "id": "32",
+   "name": "Ananya Singh",
+   "bank": "IndusInd",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24464,
+   "frequency": 29,
+   "degree": 28,
+   "x": 266.0,
+   "y": 218.9
+  },
+  {
+   "id": "10",
+   "name": "Diya Chauhan",
+   "bank": "Union Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 32477,
+   "frequency": 26,
+   "degree": 26,
+   "x": 378.2,
+   "y": 189.6
+  },
+  {
+   "id": "26",
+   "name": "Priya Singh",
+   "bank": "Canara Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 23535,
+   "frequency": 30,
+   "degree": 30,
+   "x": 396.9,
+   "y": 225.1
+  },
+  {
+   "id": "22",
+   "name": "Vivaan Verma",
+   "bank": "ICICI Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 19000,
+   "frequency": 20,
+   "degree": 19,
+   "x": 303.5,
+   "y": 355.0
+  },
+  {
+   "id": "23",
+   "name": "Ishaan Joshi",
+   "bank": "PNB",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 22641,
+   "frequency": 17,
+   "degree": 17,
+   "x": 253.4,
+   "y": 362.1
+  },
+  {
+   "id": "25",
+   "name": "Vikram Reddy",
+   "bank": "Union Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 26866,
+   "frequency": 27,
+   "degree": 25,
+   "x": 489.5,
+   "y": 198.3
+  },
+  {
+   "id": "33",
+   "name": "Ananya Rao",
+   "bank": "Kotak Mahindra",
+   "city": "Bharatpur",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 28668,
+   "frequency": 22,
+   "degree": 21,
+   "x": 240.7,
+   "y": 248.3
+  },
+  {
+   "id": "24",
+   "name": "Vikram Rao",
+   "bank": "ICICI Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24120,
+   "frequency": 24,
+   "degree": 21,
+   "x": 237.7,
+   "y": 125.4
+  },
+  {
+   "id": "27",
+   "name": "Aditya Gupta",
+   "bank": "SBI",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 16095,
+   "frequency": 27,
+   "degree": 26,
+   "x": 391.2,
+   "y": 281.2
+  },
+  {
+   "id": "21",
+   "name": "Priya Yadav",
+   "bank": "ICICI Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 19147,
+   "frequency": 16,
+   "degree": 16,
+   "x": 175.4,
+   "y": 358.8
+  },
+  {
+   "id": "18",
+   "name": "Aditya Reddy",
+   "bank": "PNB",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24583,
+   "frequency": 25,
+   "degree": 23,
+   "x": 171.1,
+   "y": 214.1
+  },
+  {
+   "id": "19",
+   "name": "Swati Yadav",
+   "bank": "Canara Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 23514,
+   "frequency": 14,
+   "degree": 14,
+   "x": 305.0,
+   "y": 305.8
+  },
+  {
+   "id": "30",
+   "name": "Nisha Mishra",
+   "bank": "Union Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 27857,
+   "frequency": 14,
+   "degree": 14,
+   "x": 445.5,
+   "y": 129.3
+  },
+  {
+   "id": "31",
+   "name": "Kiran Nair",
+   "bank": "HDFC Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 23805,
+   "frequency": 14,
+   "degree": 14,
+   "x": 505.3,
+   "y": 175.6
+  },
+  {
+   "id": "1",
+   "name": "Suresh Joshi",
+   "bank": "HDFC Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 29506,
+   "frequency": 23,
+   "degree": 21,
+   "x": 257.6,
+   "y": 301.5
+  },
+  {
+   "id": "37",
+   "name": "Pooja Rao",
+   "bank": "Union Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 19117,
+   "frequency": 22,
+   "degree": 22,
+   "x": 282.9,
+   "y": 315.7
+  },
+  {
+   "id": "16",
+   "name": "Diya Sharma",
+   "bank": "HDFC Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24164,
+   "frequency": 29,
+   "degree": 28,
+   "x": 301.7,
+   "y": 396.9
+  },
+  {
+   "id": "20",
+   "name": "Diya Sharma",
+   "bank": "Kotak Mahindra",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 18849,
+   "frequency": 21,
+   "degree": 21,
+   "x": 304.9,
+   "y": 267.3
+  },
+  {
+   "id": "7",
+   "name": "Rajesh Iyer",
+   "bank": "PNB",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 24680,
+   "frequency": 14,
+   "degree": 14,
+   "x": 248.4,
+   "y": 224.3
+  },
+  {
+   "id": "36",
+   "name": "Sneha Chauhan",
+   "bank": "HDFC Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 21489,
+   "frequency": 17,
+   "degree": 17,
+   "x": 110.7,
+   "y": 250.5
+  },
+  {
+   "id": "39",
+   "name": "Aditya Das",
+   "bank": "Canara Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 20340,
+   "frequency": 16,
+   "degree": 15,
+   "x": 270.1,
+   "y": 100.4
+  },
+  {
+   "id": "2",
+   "name": "Divya Chauhan",
+   "bank": "PNB",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 26301,
+   "frequency": 20,
+   "degree": 20,
+   "x": 125.4,
+   "y": 231.2
+  },
+  {
+   "id": "9",
+   "name": "Suresh Mishra",
+   "bank": "Kotak Mahindra",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 25697,
+   "frequency": 23,
+   "degree": 23,
+   "x": 485.3,
+   "y": 117.2
+  },
+  {
+   "id": "12",
+   "name": "Kiran Verma",
+   "bank": "ICICI Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 25476,
+   "frequency": 15,
+   "degree": 15,
+   "x": 371.0,
+   "y": 318.9
+  },
+  {
+   "id": "6",
+   "name": "Ishaan Das",
+   "bank": "SBI",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 27406,
+   "frequency": 12,
+   "degree": 12,
+   "x": 407.0,
+   "y": 252.5
+  },
+  {
+   "id": "15",
+   "name": "Arjun Kulkarni",
+   "bank": "Kotak Mahindra",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 100.0,
+   "avgTxn": 18497,
+   "frequency": 21,
+   "degree": 20,
+   "x": 427.5,
+   "y": 100.5
+  },
+  {
+   "id": "8",
+   "name": "Kavya Chauhan",
+   "bank": "Canara Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 99.9,
+   "avgTxn": 24079,
+   "frequency": 28,
+   "degree": 27,
+   "x": 371.5,
+   "y": 244.0
+  },
+  {
+   "id": "3",
+   "name": "Vivaan Rao",
+   "bank": "IndusInd",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 99.9,
+   "avgTxn": 15387,
+   "frequency": 19,
+   "degree": 19,
+   "x": 132.0,
+   "y": 272.3
+  },
+  {
+   "id": "5",
+   "name": "Ananya Sharma",
+   "bank": "SBI",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 99.8,
+   "avgTxn": 18826,
+   "frequency": 22,
+   "degree": 22,
+   "x": 244.9,
+   "y": 397.2
+  },
+  {
+   "id": "34",
+   "name": "Meera Reddy",
+   "bank": "Union Bank",
+   "city": "Bharatpur",
+   "isMule": true,
+   "riskScore": 99.7,
+   "avgTxn": 17619,
+   "frequency": 28,
+   "degree": 27,
+   "x": 219.7,
+   "y": 272.0
+  },
+  {
+   "id": "35",
+   "name": "Priya Kulkarni",
+   "bank": "ICICI Bank",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 99.7,
+   "avgTxn": 15788,
+   "frequency": 15,
+   "degree": 15,
+   "x": 308.2,
+   "y": 125.5
+  },
+  {
+   "id": "28",
+   "name": "Manish Nair",
+   "bank": "Axis Bank",
+   "city": "Jamtara",
+   "isMule": true,
+   "riskScore": 99.2,
+   "avgTxn": 15903,
+   "frequency": 16,
+   "degree": 14,
+   "x": 297.8,
+   "y": 155.7
+  },
+  {
+   "id": "13",
+   "name": "Ananya Kulkarni",
+   "bank": "HDFC Bank",
+   "city": "Deoghar",
+   "isMule": true,
+   "riskScore": 99.0,
+   "avgTxn": 22330,
+   "frequency": 14,
+   "degree": 14,
+   "x": 360.8,
+   "y": 207.7
+  },
+  {
+   "id": "14",
+   "name": "Meera Mishra",
+   "bank": "Axis Bank",
+   "city": "Alwar",
+   "isMule": true,
+   "riskScore": 98.7,
+   "avgTxn": 21542,
+   "frequency": 13,
+   "degree": 13,
+   "x": 442.6,
+   "y": 119.1
+  },
+  {
+   "id": "359",
+   "name": "Pooja Reddy",
+   "bank": "SBI",
+   "city": "Nuh (Mewat)",
+   "isMule": true,
+   "riskScore": 90.3,
+   "avgTxn": 14172,
+   "frequency": 19,
+   "degree": 19,
+   "x": 398.2,
+   "y": 200.0
+  },
+  {
+   "id": "185",
+   "name": "Manish Reddy",
+   "bank": "Kotak Mahindra",
+   "city": "Mumbai",
+   "isMule": false,
+   "riskScore": 6.0,
+   "avgTxn": 12985,
+   "frequency": 20,
+   "degree": 19,
+   "x": 447.6,
+   "y": 283.7
+  },
+  {
+   "id": "145",
+   "name": "Priya Nair",
+   "bank": "IndusInd",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 4.4,
+   "avgTxn": 16227,
+   "frequency": 14,
+   "degree": 14,
+   "x": 532.9,
+   "y": 262.0
+  },
+  {
+   "id": "160",
+   "name": "Diya Kulkarni",
+   "bank": "Axis Bank",
+   "city": "Alwar",
+   "isMule": false,
+   "riskScore": 1.1,
+   "avgTxn": 15510,
+   "frequency": 15,
+   "degree": 15,
+   "x": 368.1,
+   "y": 119.5
+  },
+  {
+   "id": "46",
+   "name": "Vivaan Patel",
+   "bank": "PNB",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.5,
+   "avgTxn": 15611,
+   "frequency": 19,
+   "degree": 18,
+   "x": 302.6,
+   "y": 193.2
+  },
+  {
+   "id": "142",
+   "name": "Rajesh Mehta",
+   "bank": "HDFC Bank",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.3,
+   "avgTxn": 9693,
+   "frequency": 17,
+   "degree": 16,
+   "x": 398.4,
+   "y": 143.5
+  },
+  {
+   "id": "181",
+   "name": "Rajesh Gupta",
+   "bank": "ICICI Bank",
+   "city": "Mumbai",
+   "isMule": false,
+   "riskScore": 0.1,
+   "avgTxn": 9268,
+   "frequency": 18,
+   "degree": 18,
+   "x": 369.4,
+   "y": 400.0
+  },
+  {
+   "id": "43",
+   "name": "Rohan Sharma",
+   "bank": "Axis Bank",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9096,
+   "frequency": 20,
+   "degree": 19,
+   "x": 475.7,
+   "y": 267.0
+  },
+  {
+   "id": "161",
+   "name": "Amit Nair",
+   "bank": "PNB",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9399,
+   "frequency": 13,
+   "degree": 13,
+   "x": 356.7,
+   "y": 279.1
+  },
+  {
+   "id": "109",
+   "name": "Divya Rao",
+   "bank": "PNB",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6575,
+   "frequency": 18,
+   "degree": 18,
+   "x": 205.2,
+   "y": 385.8
+  },
+  {
+   "id": "47",
+   "name": "Nisha Rao",
+   "bank": "PNB",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 5390,
+   "frequency": 16,
+   "degree": 16,
+   "x": 177.9,
+   "y": 263.7
+  },
+  {
+   "id": "147",
+   "name": "Anjali Iyer",
+   "bank": "IndusInd",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9117,
+   "frequency": 18,
+   "degree": 18,
+   "x": 371.2,
+   "y": 379.3
+  },
+  {
+   "id": "71",
+   "name": "Pooja Mishra",
+   "bank": "IndusInd",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 8451,
+   "frequency": 17,
+   "degree": 16,
+   "x": 343.8,
+   "y": 302.9
+  },
+  {
+   "id": "285",
+   "name": "Aditya Das",
+   "bank": "Union Bank",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 11728,
+   "frequency": 12,
+   "degree": 12,
+   "x": 345.6,
+   "y": 244.1
+  },
+  {
+   "id": "67",
+   "name": "Amit Nair",
+   "bank": "Union Bank",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 8818,
+   "frequency": 20,
+   "degree": 20,
+   "x": 447.6,
+   "y": 370.6
+  },
+  {
+   "id": "295",
+   "name": "Aarav Reddy",
+   "bank": "HDFC Bank",
+   "city": "Kolkata",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6972,
+   "frequency": 20,
+   "degree": 20,
+   "x": 308.4,
+   "y": 177.6
+  },
+  {
+   "id": "224",
+   "name": "Rohan Das",
+   "bank": "Axis Bank",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 7926,
+   "frequency": 14,
+   "degree": 14,
+   "x": 398.0,
+   "y": 67.4
+  },
+  {
+   "id": "74",
+   "name": "Swati Verma",
+   "bank": "PNB",
+   "city": "Bharatpur",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9276,
+   "frequency": 17,
+   "degree": 16,
+   "x": 94.8,
+   "y": 183.0
+  },
+  {
+   "id": "211",
+   "name": "Nisha Rao",
+   "bank": "Canara Bank",
+   "city": "Deoghar",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 7915,
+   "frequency": 12,
+   "degree": 12,
+   "x": 40.0,
+   "y": 204.1
+  },
+  {
+   "id": "288",
+   "name": "Aditya Gupta",
+   "bank": "Bank of Baroda",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6848,
+   "frequency": 14,
+   "degree": 14,
+   "x": 560.0,
+   "y": 134.6
+  },
+  {
+   "id": "92",
+   "name": "Rajesh Mehta",
+   "bank": "Bank of Baroda",
+   "city": "Bharatpur",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 8770,
+   "frequency": 15,
+   "degree": 15,
+   "x": 80.5,
+   "y": 100.3
+  },
+  {
+   "id": "104",
+   "name": "Ananya Gupta",
+   "bank": "Kotak Mahindra",
+   "city": "Mumbai",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6891,
+   "frequency": 13,
+   "degree": 12,
+   "x": 83.5,
+   "y": 248.2
+  },
+  {
+   "id": "75",
+   "name": "Kiran Reddy",
+   "bank": "Canara Bank",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 7260,
+   "frequency": 12,
+   "degree": 12,
+   "x": 559.8,
+   "y": 240.8
+  },
+  {
+   "id": "337",
+   "name": "Rahul Gupta",
+   "bank": "PNB",
+   "city": "Alwar",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6081,
+   "frequency": 19,
+   "degree": 18,
+   "x": 408.0,
+   "y": 170.5
+  },
+  {
+   "id": "269",
+   "name": "Rohan Rao",
+   "bank": "ICICI Bank",
+   "city": "Mumbai",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9383,
+   "frequency": 15,
+   "degree": 15,
+   "x": 432.8,
+   "y": 356.4
+  },
+  {
+   "id": "184",
+   "name": "Arjun Mishra",
+   "bank": "Axis Bank",
+   "city": "Pune",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 9358,
+   "frequency": 12,
+   "degree": 12,
+   "x": 89.7,
+   "y": 151.0
+  },
+  {
+   "id": "366",
+   "name": "Arjun Verma",
+   "bank": "ICICI Bank",
+   "city": "Deoghar",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 8258,
+   "frequency": 14,
+   "degree": 14,
+   "x": 456.3,
+   "y": 238.7
+  },
+  {
+   "id": "248",
+   "name": "Diya Nair",
+   "bank": "Axis Bank",
+   "city": "Bharatpur",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6165,
+   "frequency": 12,
+   "degree": 12,
+   "x": 187.9,
+   "y": 138.2
+  },
+  {
+   "id": "105",
+   "name": "Ishaan Das",
+   "bank": "PNB",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 5812,
+   "frequency": 13,
+   "degree": 13,
+   "x": 546.5,
+   "y": 126.1
+  },
+  {
+   "id": "136",
+   "name": "Manish Singh",
+   "bank": "PNB",
+   "city": "Nuh (Mewat)",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 11226,
+   "frequency": 8,
+   "degree": 8,
+   "x": 144.3,
+   "y": 179.5
+  },
+  {
+   "id": "333",
+   "name": "Swati Yadav",
+   "bank": "ICICI Bank",
+   "city": "Nuh (Mewat)",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 5197,
+   "frequency": 17,
+   "degree": 16,
+   "x": 127.5,
+   "y": 109.7
+  },
+  {
+   "id": "253",
+   "name": "Pooja Joshi",
+   "bank": "IndusInd",
+   "city": "Deoghar",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 8171,
+   "frequency": 18,
+   "degree": 18,
+   "x": 473.0,
+   "y": 210.2
+  },
+  {
+   "id": "388",
+   "name": "Ananya Nair",
+   "bank": "Union Bank",
+   "city": "Lucknow",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6959,
+   "frequency": 13,
+   "degree": 13,
+   "x": 108.5,
+   "y": 299.6
+  },
+  {
+   "id": "78",
+   "name": "Vikram Chauhan",
+   "bank": "SBI",
+   "city": "Delhi",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 5911,
+   "frequency": 15,
+   "degree": 15,
+   "x": 519.3,
+   "y": 249.4
+  },
+  {
+   "id": "183",
+   "name": "Suresh Rao",
+   "bank": "Bank of Baroda",
+   "city": "Hyderabad",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6489,
+   "frequency": 14,
+   "degree": 14,
+   "x": 347.0,
+   "y": 112.7
+  },
+  {
+   "id": "77",
+   "name": "Nisha Reddy",
+   "bank": "SBI",
+   "city": "Kolkata",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 10335,
+   "frequency": 11,
+   "degree": 10,
+   "x": 554.7,
+   "y": 172.9
+  },
+  {
+   "id": "356",
+   "name": "Rajesh Iyer",
+   "bank": "Bank of Baroda",
+   "city": "Nuh (Mewat)",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 6968,
+   "frequency": 21,
+   "degree": 20,
+   "x": 184.3,
+   "y": 185.4
+  },
+  {
+   "id": "320",
+   "name": "Arjun Reddy",
+   "bank": "Axis Bank",
+   "city": "Bengaluru",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 7201,
+   "frequency": 13,
+   "degree": 12,
+   "x": 185.2,
+   "y": 269.4
+  },
+  {
+   "id": "95",
+   "name": "Rajesh Patel",
+   "bank": "IndusInd",
+   "city": "Delhi",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 7853,
+   "frequency": 17,
+   "degree": 16,
+   "x": 288.5,
+   "y": 205.6
+  },
+  {
+   "id": "315",
+   "name": "Nisha Nair",
+   "bank": "ICICI Bank",
+   "city": "Mumbai",
+   "isMule": false,
+   "riskScore": 0.0,
+   "avgTxn": 5054,
+   "frequency": 15,
+   "degree": 15,
+   "x": 201.1,
+   "y": 40.0
+  }
+ ],
+ "links": [
+  {
+   "source": "0",
+   "target": "109"
+  },
+  {
+   "source": "0",
+   "target": "24"
+  },
+  {
+   "source": "0",
+   "target": "19"
+  },
+  {
+   "source": "0",
+   "target": "136"
+  },
+  {
+   "source": "0",
+   "target": "67"
+  },
+  {
+   "source": "0",
+   "target": "181"
+  },
+  {
+   "source": "0",
+   "target": "3"
+  },
+  {
+   "source": "0",
+   "target": "4"
+  },
+  {
+   "source": "0",
+   "target": "5"
+  },
+  {
+   "source": "0",
+   "target": "6"
+  },
+  {
+   "source": "0",
+   "target": "7"
+  },
+  {
+   "source": "1",
+   "target": "22"
+  },
+  {
+   "source": "1",
+   "target": "136"
+  },
+  {
+   "source": "1",
+   "target": "104"
+  },
+  {
+   "source": "1",
+   "target": "145"
+  },
+  {
+   "source": "1",
+   "target": "4"
+  },
+  {
+   "source": "1",
+   "target": "5"
+  },
+  {
+   "source": "1",
+   "target": "6"
+  },
+  {
+   "source": "1",
+   "target": "7"
+  },
+  {
+   "source": "2",
+   "target": "315"
+  },
+  {
+   "source": "2",
+   "target": "320"
+  },
+  {
+   "source": "2",
+   "target": "21"
+  },
+  {
+   "source": "2",
+   "target": "23"
+  },
+  {
+   "source": "2",
+   "target": "388"
+  },
+  {
+   "source": "2",
+   "target": "46"
+  },
+  {
+   "source": "2",
+   "target": "3"
+  },
+  {
+   "source": "2",
+   "target": "4"
+  },
+  {
+   "source": "2",
+   "target": "7"
+  },
+  {
+   "source": "3",
+   "target": "388"
+  },
+  {
+   "source": "3",
+   "target": "36"
+  },
+  {
+   "source": "3",
+   "target": "92"
+  },
+  {
+   "source": "3",
+   "target": "104"
+  },
+  {
+   "source": "3",
+   "target": "185"
+  },
+  {
+   "source": "3",
+   "target": "33"
+  },
+  {
+   "source": "3",
+   "target": "4"
+  },
+  {
+   "source": "3",
+   "target": "7"
+  },
+  {
+   "source": "4",
+   "target": "359"
+  },
+  {
+   "source": "4",
+   "target": "183"
+  },
+  {
+   "source": "4",
+   "target": "356"
+  },
+  {
+   "source": "4",
+   "target": "5"
+  },
+  {
+   "source": "5",
+   "target": "71"
+  },
+  {
+   "source": "5",
+   "target": "6"
+  },
+  {
+   "source": "6",
+   "target": "31"
+  },
+  {
+   "source": "6",
+   "target": "160"
+  },
+  {
+   "source": "6",
+   "target": "7"
+  },
+  {
+   "source": "6",
+   "target": "145"
+  },
+  {
+   "source": "7",
+   "target": "77"
+  },
+  {
+   "source": "8",
+   "target": "47"
+  },
+  {
+   "source": "8",
+   "target": "161"
+  },
+  {
+   "source": "8",
+   "target": "46"
+  },
+  {
+   "source": "8",
+   "target": "95"
+  },
+  {
+   "source": "8",
+   "target": "253"
+  },
+  {
+   "source": "8",
+   "target": "181"
+  },
+  {
+   "source": "8",
+   "target": "11"
+  },
+  {
+   "source": "8",
+   "target": "12"
+  },
+  {
+   "source": "8",
+   "target": "15"
+  },
+  {
+   "source": "9",
+   "target": "185"
+  },
+  {
+   "source": "9",
+   "target": "77"
+  },
+  {
+   "source": "9",
+   "target": "183"
+  },
+  {
+   "source": "9",
+   "target": "295"
+  },
+  {
+   "source": "9",
+   "target": "11"
+  },
+  {
+   "source": "9",
+   "target": "13"
+  },
+  {
+   "source": "9",
+   "target": "14"
+  },
+  {
+   "source": "9",
+   "target": "15"
+  },
+  {
+   "source": "10",
+   "target": "356"
+  },
+  {
+   "source": "10",
+   "target": "269"
+  },
+  {
+   "source": "10",
+   "target": "24"
+  },
+  {
+   "source": "10",
+   "target": "295"
+  },
+  {
+   "source": "10",
+   "target": "185"
+  },
+  {
+   "source": "10",
+   "target": "11"
+  },
+  {
+   "source": "10",
+   "target": "12"
+  },
+  {
+   "source": "10",
+   "target": "13"
+  },
+  {
+   "source": "10",
+   "target": "14"
+  },
+  {
+   "source": "10",
+   "target": "15"
+  },
+  {
+   "source": "11",
+   "target": "337"
+  },
+  {
+   "source": "11",
+   "target": "46"
+  },
+  {
+   "source": "11",
+   "target": "38"
+  },
+  {
+   "source": "11",
+   "target": "211"
+  },
+  {
+   "source": "11",
+   "target": "12"
+  },
+  {
+   "source": "11",
+   "target": "15"
+  },
+  {
+   "source": "12",
+   "target": "13"
+  },
+  {
+   "source": "13",
+   "target": "67"
+  },
+  {
+   "source": "13",
+   "target": "183"
+  },
+  {
+   "source": "13",
+   "target": "71"
+  },
+  {
+   "source": "13",
+   "target": "356"
+  },
+  {
+   "source": "13",
+   "target": "14"
+  },
+  {
+   "source": "14",
+   "target": "248"
+  },
+  {
+   "source": "14",
+   "target": "253"
+  },
+  {
+   "source": "14",
+   "target": "145"
+  },
+  {
+   "source": "14",
+   "target": "366"
+  },
+  {
+   "source": "14",
+   "target": "15"
+  },
+  {
+   "source": "15",
+   "target": "31"
+  },
+  {
+   "source": "15",
+   "target": "46"
+  },
+  {
+   "source": "15",
+   "target": "285"
+  },
+  {
+   "source": "16",
+   "target": "161"
+  },
+  {
+   "source": "16",
+   "target": "34"
+  },
+  {
+   "source": "16",
+   "target": "71"
+  },
+  {
+   "source": "16",
+   "target": "67"
+  },
+  {
+   "source": "16",
+   "target": "19"
+  },
+  {
+   "source": "16",
+   "target": "20"
+  },
+  {
+   "source": "16",
+   "target": "21"
+  },
+  {
+   "source": "16",
+   "target": "22"
+  },
+  {
+   "source": "16",
+   "target": "23"
+  },
+  {
+   "source": "17",
+   "target": "224"
+  },
+  {
+   "source": "17",
+   "target": "67"
+  },
+  {
+   "source": "17",
+   "target": "43"
+  },
+  {
+   "source": "17",
+   "target": "359"
+  },
+  {
+   "source": "17",
+   "target": "19"
+  },
+  {
+   "source": "17",
+   "target": "20"
+  },
+  {
+   "source": "17",
+   "target": "21"
+  },
+  {
+   "source": "17",
+   "target": "22"
+  },
+  {
+   "source": "17",
+   "target": "23"
+  },
+  {
+   "source": "18",
+   "target": "211"
+  },
+  {
+   "source": "18",
+   "target": "74"
+  },
+  {
+   "source": "18",
+   "target": "36"
+  },
+  {
+   "source": "18",
+   "target": "160"
+  },
+  {
+   "source": "18",
+   "target": "19"
+  },
+  {
+   "source": "18",
+   "target": "21"
+  },
+  {
+   "source": "18",
+   "target": "22"
+  },
+  {
+   "source": "19",
+   "target": "269"
+  },
+  {
+   "source": "19",
+   "target": "46"
+  },
+  {
+   "source": "19",
+   "target": "20"
+  },
+  {
+   "source": "19",
+   "target": "23"
+  },
+  {
+   "source": "20",
+   "target": "333"
+  },
+  {
+   "source": "20",
+   "target": "23"
+  },
+  {
+   "source": "20",
+   "target": "78"
+  },
+  {
+   "source": "20",
+   "target": "183"
+  },
+  {
+   "source": "20",
+   "target": "71"
+  },
+  {
+   "source": "20",
+   "target": "253"
+  },
+  {
+   "source": "20",
+   "target": "21"
+  },
+  {
+   "source": "21",
+   "target": "22"
+  },
+  {
+   "source": "22",
+   "target": "27"
+  },
+  {
+   "source": "22",
+   "target": "67"
+  },
+  {
+   "source": "22",
+   "target": "43"
+  },
+  {
+   "source": "22",
+   "target": "23"
+  },
+  {
+   "source": "23",
+   "target": "27"
+  },
+  {
+   "source": "23",
+   "target": "71"
+  },
+  {
+   "source": "23",
+   "target": "388"
+  },
+  {
+   "source": "24",
+   "target": "356"
+  },
+  {
+   "source": "24",
+   "target": "74"
+  },
+  {
+   "source": "24",
+   "target": "337"
+  },
+  {
+   "source": "24",
+   "target": "28"
+  },
+  {
+   "source": "24",
+   "target": "29"
+  },
+  {
+   "source": "24",
+   "target": "30"
+  },
+  {
+   "source": "25",
+   "target": "29"
+  },
+  {
+   "source": "25",
+   "target": "142"
+  },
+  {
+   "source": "25",
+   "target": "161"
+  },
+  {
+   "source": "25",
+   "target": "71"
+  },
+  {
+   "source": "25",
+   "target": "77"
+  },
+  {
+   "source": "25",
+   "target": "27"
+  },
+  {
+   "source": "25",
+   "target": "30"
+  },
+  {
+   "source": "25",
+   "target": "31"
+  },
+  {
+   "source": "26",
+   "target": "47"
+  },
+  {
+   "source": "26",
+   "target": "147"
+  },
+  {
+   "source": "26",
+   "target": "43"
+  },
+  {
+   "source": "26",
+   "target": "295"
+  },
+  {
+   "source": "26",
+   "target": "366"
+  },
+  {
+   "source": "26",
+   "target": "142"
+  },
+  {
+   "source": "26",
+   "target": "27"
+  },
+  {
+   "source": "26",
+   "target": "28"
+  },
+  {
+   "source": "26",
+   "target": "29"
+  },
+  {
+   "source": "26",
+   "target": "30"
+  },
+  {
+   "source": "26",
+   "target": "31"
+  },
+  {
+   "source": "27",
+   "target": "78"
+  },
+  {
+   "source": "27",
+   "target": "37"
+  },
+  {
+   "source": "27",
+   "target": "32"
+  },
+  {
+   "source": "27",
+   "target": "47"
+  },
+  {
+   "source": "27",
+   "target": "28"
+  },
+  {
+   "source": "27",
+   "target": "31"
+  },
+  {
+   "source": "28",
+   "target": "75"
+  },
+  {
+   "source": "28",
+   "target": "29"
+  },
+  {
+   "source": "29",
+   "target": "38"
+  },
+  {
+   "source": "29",
+   "target": "74"
+  },
+  {
+   "source": "29",
+   "target": "30"
+  },
+  {
+   "source": "30",
+   "target": "105"
+  },
+  {
+   "source": "30",
+   "target": "31"
+  },
+  {
+   "source": "31",
+   "target": "183"
+  },
+  {
+   "source": "31",
+   "target": "77"
+  },
+  {
+   "source": "31",
+   "target": "285"
+  },
+  {
+   "source": "31",
+   "target": "43"
+  },
+  {
+   "source": "32",
+   "target": "366"
+  },
+  {
+   "source": "32",
+   "target": "74"
+  },
+  {
+   "source": "32",
+   "target": "295"
+  },
+  {
+   "source": "32",
+   "target": "337"
+  },
+  {
+   "source": "32",
+   "target": "320"
+  },
+  {
+   "source": "32",
+   "target": "35"
+  },
+  {
+   "source": "32",
+   "target": "36"
+  },
+  {
+   "source": "32",
+   "target": "37"
+  },
+  {
+   "source": "32",
+   "target": "38"
+  },
+  {
+   "source": "32",
+   "target": "39"
+  },
+  {
+   "source": "33",
+   "target": "181"
+  },
+  {
+   "source": "33",
+   "target": "160"
+  },
+  {
+   "source": "33",
+   "target": "285"
+  },
+  {
+   "source": "33",
+   "target": "36"
+  },
+  {
+   "source": "33",
+   "target": "37"
+  },
+  {
+   "source": "33",
+   "target": "38"
+  },
+  {
+   "source": "33",
+   "target": "39"
+  },
+  {
+   "source": "34",
+   "target": "184"
+  },
+  {
+   "source": "34",
+   "target": "337"
+  },
+  {
+   "source": "34",
+   "target": "37"
+  },
+  {
+   "source": "34",
+   "target": "38"
+  },
+  {
+   "source": "34",
+   "target": "39"
+  },
+  {
+   "source": "35",
+   "target": "95"
+  },
+  {
+   "source": "35",
+   "target": "43"
+  },
+  {
+   "source": "35",
+   "target": "36"
+  },
+  {
+   "source": "35",
+   "target": "39"
+  },
+  {
+   "source": "36",
+   "target": "37"
+  },
+  {
+   "source": "37",
+   "target": "295"
+  },
+  {
+   "source": "37",
+   "target": "147"
+  },
+  {
+   "source": "37",
+   "target": "38"
+  },
+  {
+   "source": "38",
+   "target": "39"
+  },
+  {
+   "source": "39",
+   "target": "288"
+  },
+  {
+   "source": "39",
+   "target": "333"
+  },
+  {
+   "source": "39",
+   "target": "315"
+  },
+  {
+   "source": "43",
+   "target": "46"
+  },
+  {
+   "source": "46",
+   "target": "74"
+  },
+  {
+   "source": "46",
+   "target": "147"
+  },
+  {
+   "source": "47",
+   "target": "104"
+  },
+  {
+   "source": "47",
+   "target": "109"
+  },
+  {
+   "source": "67",
+   "target": "147"
+  },
+  {
+   "source": "67",
+   "target": "75"
+  },
+  {
+   "source": "71",
+   "target": "356"
+  },
+  {
+   "source": "71",
+   "target": "185"
+  },
+  {
+   "source": "77",
+   "target": "253"
+  },
+  {
+   "source": "77",
+   "target": "337"
+  },
+  {
+   "source": "78",
+   "target": "105"
+  },
+  {
+   "source": "78",
+   "target": "359"
+  },
+  {
+   "source": "95",
+   "target": "253"
+  },
+  {
+   "source": "95",
+   "target": "161"
+  },
+  {
+   "source": "109",
+   "target": "181"
+  },
+  {
+   "source": "136",
+   "target": "285"
+  },
+  {
+   "source": "142",
+   "target": "366"
+  },
+  {
+   "source": "145",
+   "target": "337"
+  },
+  {
+   "source": "145",
+   "target": "359"
+  },
+  {
+   "source": "160",
+   "target": "366"
+  },
+  {
+   "source": "161",
+   "target": "248"
+  },
+  {
+   "source": "184",
+   "target": "359"
+  },
+  {
+   "source": "185",
+   "target": "253"
+  },
+  {
+   "source": "224",
+   "target": "253"
+  },
+  {
+   "source": "224",
+   "target": "315"
+  },
+  {
+   "source": "248",
+   "target": "388"
+  },
+  {
+   "source": "253",
+   "target": "269"
+  },
+  {
+   "source": "285",
+   "target": "337"
+  },
+  {
+   "source": "295",
+   "target": "333"
+  },
+  {
+   "source": "295",
+   "target": "359"
+  },
+  {
+   "source": "295",
+   "target": "388"
+  },
+  {
+   "source": "320",
+   "target": "388"
+  }
+ ],
+ "meta": {
+  "model": "GraphSAGE (2-layer, mean aggregator)",
+  "data": "simulated PaySim-schema ledger \u2014 2668 transactions, 400 accounts, 5 injected mule rings",
+  "auc": 1.0,
+  "f1": 0.952,
+  "precision": 0.909,
+  "recall": 1.0,
+  "epochs": 200,
+  "seed": 42,
+  "n_nodes": 80,
+  "n_edges": 247,
+  "trained_at": "2026-07-21T15:47:42.694513+00:00",
+  "note": "Methodology demonstration on simulated data; production deployment would ingest real NPCI/bank ledgers."
+ }
+}

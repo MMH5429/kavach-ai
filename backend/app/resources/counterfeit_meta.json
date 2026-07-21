@@ -1,0 +1,35 @@
+{
+  "model_name": "MobileNetV3-Small (ImageNet backbone, head fine-tuned)",
+  "classes": [
+    "fake",
+    "real"
+  ],
+  "input_size": 224,
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "trained_at": "2026-07-21T15:48:43.351031+00:00",
+  "dataset": "Fake Currency Checker \u2014 public Indian real/fake note dataset (150 train / 60 val / 107 test images)",
+  "epochs": 8,
+  "seed": 42,
+  "metrics": {
+    "val_accuracy_best": 0.8667,
+    "test_accuracy": 0.8879,
+    "test_precision_fake": 0.9273,
+    "test_recall_fake": 0.8644,
+    "test_f1_fake": 0.8947,
+    "confusion_matrix": {
+      "tp": 51,
+      "fp": 4,
+      "fn": 8,
+      "tn": 44
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "categories": [
+    {
+      "id": "authority_impersonation",
+      "label": "Authority impersonation",
+      "base_weight": 0.35,
+      "per_extra_match": 0.05,
+      "cap": 0.45,
+      "category_name": "Digital Arrest Impersonation",
+      "patterns": [
+        {"rule": "law_enforcement_agency", "regex": "\\b(cbi|central bureau|enforcement directorate|\\bed\\b|ncb|narcotics control|interpol|cyber ?cell|cyber ?crime branch|police station|mumbai police|delhi police)\\b"},
+        {"rule": "govt_body_impersonation", "regex": "\\b(trai|telecom regulatory|rbi|reserve bank|income tax department|customs department|customs office|fedex|courier company)\\b"},
+        {"rule": "official_rank_claim", "regex": "\\b(officer|inspector|sub-?inspector|constable|dcp|acp|commissioner|ips officer)\\b"},
+        {"rule": "case_number_claim", "regex": "\\b(fir (number|no)|case (number|no|id)|warrant (number|no)?|arrest warrant|legal notice|summons)\\b"}
+      ]
+    },
+    {
+      "id": "coercion_urgency",
+      "label": "Coercion & urgency",
+      "base_weight": 0.30,
+      "per_extra_match": 0.05,
+      "cap": 0.40,
+      "category_name": "Coercive Pressure Tactics",
+      "patterns": [
+        {"rule": "digital_arrest_phrase", "regex": "\\b(digital arrest|digitally arrested|house arrest|under arrest|will be arrested|arrest you)\\b"},
+        {"rule": "urgency_pressure", "regex": "\\b(immediately|urgent(ly)?|within (2|24|48) hours?|right now|last warning|final warning|time is running out)\\b"},
+        {"rule": "threat_of_consequence", "regex": "\\b(jail|imprisonment|non-?bailable|legal action|blocked permanently|suspended|deactivat(e|ed|ion)|cancelled|money laundering case)\\b"},
+        {"rule": "camera_surveillance_demand", "regex": "\\b(keep (your )?camera on|video call (verification|mandatory)|do not (disconnect|hang up|end the call)|stay on the line)\\b"}
+      ]
+    },
+    {
+      "id": "financial_extraction",
+      "label": "Financial extraction",
+      "base_weight": 0.25,
+      "per_extra_match": 0.05,
+      "cap": 0.35,
+      "category_name": "Financial Extraction Attempt",
+      "patterns": [
+        {"rule": "money_transfer_demand", "regex": "\\b(transfer (the |your )?(funds|money|amount)|send money|pay (the )?(fine|penalty|fee|charges)|settlement amount|refundable security deposit)\\b"},
+        {"rule": "account_verification_ruse", "regex": "\\b(verify (your )?(funds|account|bank)|account (verification|audit)|safe account|secure account|rbi account)\\b"},
+        {"rule": "payment_channel", "regex": "\\b(upi|gpay|google pay|phonepe|paytm|neft|rtgs|imps|bitcoin|crypto|gift card)\\b"}
+      ]
+    },
+    {
+      "id": "secrecy_isolation",
+      "label": "Secrecy & isolation",
+      "base_weight": 0.15,
+      "per_extra_match": 0.05,
+      "cap": 0.25,
+      "category_name": "Isolation Tactics",
+      "patterns": [
+        {"rule": "secrecy_demand", "regex": "\\b(do not (tell|inform|share|discuss)|don'?t tell (anyone|your family)|keep (this|it) confidential|strictly confidential|secret investigation)\\b"},
+        {"rule": "isolation_instruction", "regex": "\\b(go to a (private|quiet|separate) room|alone in the room|nobody should (know|hear)|lock the door)\\b"}
+      ]
+    },
+    {
+      "id": "personal_data_harvest",
+      "label": "Personal data harvesting",
+      "base_weight": 0.20,
+      "per_extra_match": 0.05,
+      "cap": 0.30,
+      "category_name": "Identity Data Harvesting",
+      "patterns": [
+        {"rule": "id_document_demand", "regex": "\\b(aadhaa?r (number|card|details)|pan (card|number)|passport (number|details)|voter id)\\b"},
+        {"rule": "credential_demand", "regex": "\\b(otp|one.?time password|cvv|card number|pin number|atm pin|net ?banking password|login credentials)\\b"}
+      ]
+    },
+    {
+      "id": "link_lure",
+      "label": "Malicious link / app lure",
+      "base_weight": 0.20,
+      "per_extra_match": 0.05,
+      "cap": 0.30,
+      "category_name": "Phishing Link / App Lure",
+      "patterns": [
+        {"rule": "app_install_demand", "regex": "\\b(download (the )?(app|application|apk)|install (anydesk|teamviewer|quick ?support|screen ?share)|remote access)\\b"},
+        {"rule": "suspicious_link", "regex": "(https?://(bit\\.ly|tinyurl|t\\.co|cutt\\.ly|rb\\.gy)\\S*|\\bclick (the |this )?link\\b|\\bclick here\\b)"}
+      ]
+    }
+  ],
+  "category_resolution_order": [
+    "authority_impersonation",
+    "coercion_urgency",
+    "financial_extraction",
+    "link_lure",
+    "personal_data_harvest",
+    "secrecy_isolation"
+  ],
+  "category_names": {
+    "authority_impersonation+coercion_urgency": "Digital Arrest Scam",
+    "authority_impersonation+financial_extraction": "Authority Impersonation Fraud",
+    "default_scam": "Suspected Fraud Attempt",
+    "default_clean": "No Threat Detected"
+  }
+}

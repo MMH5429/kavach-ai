@@ -1,0 +1,40 @@
+{
+  "_comment": "Known cybercrime/fraud hub districts, publicly reported (NCRB / press coverage). Intensity is a 0-1 editorial weighting for the demo heatmap, not measured data.",
+  "hotspots": [
+    {"city": "Jamtara, Jharkhand", "lat": 23.9631, "lng": 86.8029, "intensity": 0.95, "types": ["phishing_calls", "otp_fraud"]},
+    {"city": "Nuh (Mewat), Haryana", "lat": 28.1024, "lng": 77.0022, "intensity": 0.92, "types": ["sextortion", "olx_fraud"]},
+    {"city": "Bharatpur, Rajasthan", "lat": 27.2173, "lng": 77.4901, "intensity": 0.90, "types": ["olx_fraud", "upi_fraud"]},
+    {"city": "Alwar, Rajasthan", "lat": 27.5530, "lng": 76.6346, "intensity": 0.85, "types": ["sextortion", "upi_fraud"]},
+    {"city": "Deoghar, Jharkhand", "lat": 24.4823, "lng": 86.6961, "intensity": 0.82, "types": ["phishing_calls", "kyc_fraud"]},
+    {"city": "Mathura, Uttar Pradesh", "lat": 27.4924, "lng": 77.6737, "intensity": 0.75, "types": ["olx_fraud"]},
+    {"city": "Nawada, Bihar", "lat": 24.8867, "lng": 85.5430, "intensity": 0.78, "types": ["phishing_calls", "lottery_fraud"]},
+    {"city": "Giridih, Jharkhand", "lat": 24.1913, "lng": 86.3079, "intensity": 0.72, "types": ["otp_fraud"]},
+    {"city": "Delhi NCR", "lat": 28.6139, "lng": 77.2090, "intensity": 0.88, "types": ["digital_arrest", "job_fraud", "loan_app"]},
+    {"city": "Mumbai, Maharashtra", "lat": 19.0760, "lng": 72.8777, "intensity": 0.85, "types": ["digital_arrest", "investment_fraud", "counterfeit"]},
+    {"city": "Hyderabad, Telangana", "lat": 17.3850, "lng": 78.4867, "intensity": 0.80, "types": ["investment_fraud", "loan_app"]},
+    {"city": "Bengaluru, Karnataka", "lat": 12.9716, "lng": 77.5946, "intensity": 0.82, "types": ["job_fraud", "investment_fraud", "digital_arrest"]},
+    {"city": "Kolkata, West Bengal", "lat": 22.5726, "lng": 88.3639, "intensity": 0.76, "types": ["kyc_fraud", "counterfeit"]},
+    {"city": "Chennai, Tamil Nadu", "lat": 13.0827, "lng": 80.2707, "intensity": 0.70, "types": ["digital_arrest", "job_fraud"]},
+    {"city": "Ahmedabad, Gujarat", "lat": 23.0225, "lng": 72.5714, "intensity": 0.72, "types": ["investment_fraud", "counterfeit"]},
+    {"city": "Surat, Gujarat", "lat": 21.1702, "lng": 72.8311, "intensity": 0.68, "types": ["counterfeit", "upi_fraud"]},
+    {"city": "Pune, Maharashtra", "lat": 18.5204, "lng": 73.8567, "intensity": 0.70, "types": ["job_fraud", "digital_arrest"]},
+    {"city": "Lucknow, Uttar Pradesh", "lat": 26.8467, "lng": 80.9462, "intensity": 0.65, "types": ["kyc_fraud", "electricity_fraud"]},
+    {"city": "Jaipur, Rajasthan", "lat": 26.9124, "lng": 75.7873, "intensity": 0.66, "types": ["olx_fraud", "counterfeit"]},
+    {"city": "Patna, Bihar", "lat": 25.5941, "lng": 85.1376, "intensity": 0.64, "types": ["lottery_fraud", "kyc_fraud"]},
+    {"city": "Guwahati, Assam", "lat": 26.1445, "lng": 91.7362, "intensity": 0.55, "types": ["loan_app", "job_fraud"]},
+    {"city": "Bhopal, Madhya Pradesh", "lat": 23.2599, "lng": 77.4126, "intensity": 0.58, "types": ["electricity_fraud", "upi_fraud"]},
+    {"city": "Visakhapatnam, Andhra Pradesh", "lat": 17.6868, "lng": 83.2185, "intensity": 0.56, "types": ["investment_fraud"]},
+    {"city": "Kochi, Kerala", "lat": 9.9312, "lng": 76.2673, "intensity": 0.60, "types": ["courier_fraud", "digital_arrest"]},
+    {"city": "Chandigarh", "lat": 30.7333, "lng": 76.7794, "intensity": 0.54, "types": ["kyc_fraud", "job_fraud"]}
+  ],
+  "transcript_snippets": [
+    {"type": "digital_arrest", "text": "This is CBI Mumbai. A parcel with your Aadhaar has been seized with narcotics. You are under digital arrest..."},
+    {"type": "electricity_fraud", "text": "Dear customer your electricity will be disconnected tonight 9:30pm. Immediately call officer..."},
+    {"type": "kyc_fraud", "text": "Your bank KYC has expired. Click this link to update or account will be blocked within 24 hours..."},
+    {"type": "job_fraud", "text": "Congratulations! You are selected for part-time work. Earn Rs 5000 daily. Pay Rs 999 registration..."},
+    {"type": "investment_fraud", "text": "Join our VIP trading group. Guaranteed 40% monthly returns. Deposit via UPI to start..."},
+    {"type": "courier_fraud", "text": "FedEx: your parcel is held at customs. Pay clearance fee immediately or face legal action..."},
+    {"type": "otp_fraud", "text": "Sir I am calling from your bank. To reverse the wrong transaction please share the OTP received..."},
+    {"type": "sextortion", "text": "We have your video recording. Pay now or it will be sent to all your contacts..."}
+  ]
+}

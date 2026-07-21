@@ -1,0 +1,89 @@
+{
+  "_comment": "Condensed public-safety advisories paraphrased from public RBI/MHA(I4C)/TRAI/NPCI awareness campaigns. Used as retrieval context for the Citizen Shield.",
+  "advisories": [
+    {
+      "id": "digital_arrest",
+      "topic": "Digital Arrest / Police-CBI Impersonation",
+      "rules": "No police force, CBI, ED, customs office or court conducts 'digital arrest' over video call. Law enforcement never demands money transfers to avoid arrest. Disconnect immediately and report to cybercrime helpline 1930 or cybercrime.gov.in.",
+      "risk": "Critical"
+    },
+    {
+      "id": "electricity_disconnect",
+      "topic": "Electricity Bill Disconnection Scam",
+      "rules": "Power utilities never send personal mobile numbers to call, and never disconnect at night over SMS. Verify only on the official electricity board app or website. Never pay via personal UPI IDs.",
+      "risk": "High"
+    },
+    {
+      "id": "courier_customs",
+      "topic": "FedEx / Courier Parcel Customs Scam",
+      "rules": "Courier companies do not phone about parcels containing drugs, and customs does not settle cases by phone. 'Your parcel has narcotics' followed by a police transfer is a scripted scam. Hang up; no legitimate agency asks for payment to clear your name.",
+      "risk": "Critical"
+    },
+    {
+      "id": "telegram_task",
+      "topic": "Telegram Task / Part-time Job Fraud",
+      "rules": "'Earn money liking videos or rating hotels' schemes pay small amounts first, then demand larger deposits for 'prepaid tasks' and vanish. Genuine employers never ask you to deposit money to receive salary.",
+      "risk": "High"
+    },
+    {
+      "id": "kyc_phishing",
+      "topic": "Bank KYC Expiry / Account Block Phishing",
+      "rules": "Banks never send links via SMS to update KYC, and never block accounts within 24 hours for KYC. Do not click short links; visit your branch or the bank's official app only. Never share OTP, CVV or PIN with anyone including bank staff.",
+      "risk": "High"
+    },
+    {
+      "id": "loan_app",
+      "topic": "Predatory Instant Loan App Harassment",
+      "rules": "Use only RBI-registered lender apps. Illegal loan apps demand contact/gallery access, then harass and morph photos. Do not grant contacts permission to any loan app; report harassment to 1930 and local police.",
+      "risk": "High"
+    },
+    {
+      "id": "sextortion",
+      "topic": "Sextortion / Video Call Blackmail",
+      "rules": "Do not pay — payment leads to escalating demands. Do not delete evidence; take screenshots, block the profile, and report at cybercrime.gov.in (reports can be filed anonymously for such cases). Video call from unknown numbers should never be answered with camera on.",
+      "risk": "Critical"
+    },
+    {
+      "id": "lottery_kbc",
+      "topic": "Lottery / KBC Prize Scam",
+      "rules": "You cannot win a lottery you never entered. KBC/jio lottery WhatsApp calls with prize wheel images are fraudulent. Any 'prize' requiring an advance fee, GST or processing charge is a scam.",
+      "risk": "Medium"
+    },
+    {
+      "id": "olx_army",
+      "topic": "OLX / Marketplace Army-Officer Impersonation",
+      "rules": "Fraudsters pose as army/CISF personnel selling vehicles cheap, sending fake ID cards, then request advance payment or QR scan. Never pay in advance for marketplace goods; meet in person. Remember: scanning a QR code or entering UPI PIN SENDS money, it never receives money.",
+      "risk": "High"
+    },
+    {
+      "id": "upi_reversal",
+      "topic": "UPI Wrong-Transfer Reversal / QR Code Fraud",
+      "rules": "'Money sent by mistake, please return' with a collect request or QR is fraud. You never need to enter your UPI PIN or scan a QR to RECEIVE money. Verify unknown credits with your bank before acting.",
+      "risk": "High"
+    },
+    {
+      "id": "investment_crypto",
+      "topic": "Investment / Crypto Trading Group Fraud",
+      "rules": "Guaranteed high returns (30-40% monthly) are always fraudulent. Fake trading platforms show fabricated profits but block withdrawals. Invest only through SEBI-registered intermediaries; verify at sebi.gov.in.",
+      "risk": "High"
+    },
+    {
+      "id": "trai_sim",
+      "topic": "TRAI SIM Block / Mobile Disconnection Scam",
+      "rules": "TRAI does not call subscribers or disconnect numbers for 'illegal activity'. Automated calls threatening SIM block within 2 hours are scams designed to route you to fake police. Disconnect and report to sancharsaathi.gov.in (Chakshu).",
+      "risk": "Critical"
+    },
+    {
+      "id": "courier_otp",
+      "topic": "Delivery OTP / Package Verification Fraud",
+      "rules": "Delivery agents need no OTP to attempt a delivery unless you initiated cash-on-delivery verification. Sharing a delivery OTP can authorize account changes or returns. Never read out OTPs on calls.",
+      "risk": "Medium"
+    },
+    {
+      "id": "refund_remote",
+      "topic": "Refund / Customer-Care Remote Access Scam",
+      "rules": "Searching helpline numbers on the web often surfaces fake numbers. Real customer care never asks you to install AnyDesk/TeamViewer or any screen-share app. Remote access + banking app open = account drained.",
+      "risk": "Critical"
+    }
+  ]
+}
