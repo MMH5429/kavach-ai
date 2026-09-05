@@ -1,8 +1,15 @@
 // Central API base URL.
-// Local dev falls back to localhost; set VITE_API_URL in the deploy environment
-// so the built frontend talks to the real backend.
-export const API_BASE =
-  import.meta.env.VITE_API_URL?.replace(/\/$/, "") || "http://localhost:8000";
+//  - VITE_API_URL set  -> use it (split frontend/backend deployments)
+//  - production build   -> same origin ("" base), since Vercel serves /api/* from
+//                          the Python function on this domain
+//  - dev                -> the local uvicorn server
+const CONFIGURED_API_URL = import.meta.env.VITE_API_URL?.trim();
+
+export const API_BASE = CONFIGURED_API_URL
+  ? CONFIGURED_API_URL.replace(/\/$/, "")
+  : import.meta.env.PROD
+    ? ""
+    : "http://localhost:8000";
 
 export const apiUrl = (path) =>
   `${API_BASE}${path.startsWith("/") ? path : `/${path}`}`;

@@ -1,0 +1,10 @@
+# Dependencies for the Vercel Python serverless function (api/index.py).
+# uvicorn is intentionally omitted — Vercel provides the ASGI server.
+fastapi>=0.115.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+google-genai>=1.0.0
+onnxruntime>=1.20.1
+numpy>=1.26.0
+pillow>=10.3.0

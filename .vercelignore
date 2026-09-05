@@ -1,0 +1,10 @@
+# Never upload environments, datasets, or secrets to the build.
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+.env
+**/.env
+ml/
+frontend/dist/
+*.pdf
