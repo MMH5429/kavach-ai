@@ -1,5 +1,6 @@
 # Kavach AI — Complete Project Documentation
 
+**Live demo:** https://kavach-ai-self.vercel.app
 **Repository:** https://github.com/MMH5429/kavach-ai
 **Stack:** FastAPI (Python) · React 19 + Vite · ONNX Runtime · PyTorch (training) · Gemini API · Leaflet
 
@@ -344,8 +345,21 @@ python ml/m2_train.py        # needs dataset, see ml/datasets/README.md (~5-10 m
 python ml/m3_graph_train.py  # self-contained (~1 min CPU)
 ```
 
-**Deploying:** host the backend anywhere Python runs; build the frontend with
-`VITE_API_URL=https://your-backend npm run build` and serve `dist/`.
+**Deploying (Vercel — how the live demo runs):** the repo deploys as a single Vercel
+project. `vercel.json` builds the Vite frontend to static output and serves the FastAPI
+app as a Python 3.12 serverless function from `api/index.py`, with `backend/**` (models
+and knowledge bases) bundled via `includeFiles`. A rewrite sends `/api/*` to the function,
+so the API shares the frontend's origin — no CORS, and no API URL to configure.
+`GEMINI_API_KEY` is set as a Vercel environment variable.
+
+```bash
+vercel link
+vercel env add GEMINI_API_KEY production
+vercel deploy --prod
+```
+
+For a split deployment (backend hosted elsewhere), set `VITE_API_URL` to the backend
+origin at build time; it overrides the same-origin default.
 
 ---
 

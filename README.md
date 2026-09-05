@@ -1,5 +1,7 @@
 # Kavach AI — Public Safety Intelligence Platform
 
+**Live demo: https://kavach-ai-self.vercel.app**
+
 Four integrated anti-fraud modules behind one command-center dashboard. Every verdict in the
 UI is produced by a real, inspectable engine — no mocked model output.
 
